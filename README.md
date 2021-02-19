@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Minnesota Metadata Stylesheet
 =========
 This project contains the ESRI ArcGIS 10 stylesheet(s) to format metadata XML that adhere to the [Minnesota Geographic Metadata Guidelines (MGMG version 1.2)](http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm).
@@ -49,3 +50,7 @@ If the selected metadata is not in MGMG 1.2 format, it displays according to ESR
 To determine what is in MGMG metadata format, the stylesheet looks for this tag:
 <metstdn>Minnesota Geographic Metadata Guidelines</metstdn> 
 
+=======
+# MinnesotaMetadataStylesheet
+A formatting XML stylesheet for the Minnesota Goegraphic Metadata Standard
+>>>>>>> c6b0d221ff7a271f5d9b168936dd69a2ee9d8012
