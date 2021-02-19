@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>MetroGIS Address Points Dataset - Twin Cities Metropolitan Area</title>
+                <origin>Municipalities and Counties in the Twin Cities metropolitan area.</origin>
+                <pubinfo>
+                    <publish>Metropolitan Council</publish>
+                </pubinfo>
+                <pubdate>periodically revised</pubdate>
+                <onlink>https://gisdata.mn.gov/dataset/us-mn-state-metrogis-loc-address-points</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset is a compilation of address point data from metro area address authorities, which are predominantly cities. The dataset is intended to contain a point location and the official address (as defined by the address authority) for all occupiable units and any other official addresses within the jurisdictional boundary of each address authority. A number of other attributes are available in the dataset, but may not be populated by some address authorities. Metro area counties are playing a coordinative role to work with cities to create, maintain and aggregate address points. Currently this dataset contains points for Carver, Dakota, Hennepin, Ramsey and Scott Counties. It will grow over time as more counties contribute data. Some jurisdictions in this dataset contain parcel points and not complete address points.  See Completeness in Section 2 of this metadata for more information.</abstract>
+            <purpose>To view, query and analyze address point data anywhere it is available in the seven county metro area, and to have a single, authoritative source of the official address for any location</purpose>
+            <supplinf>Contributing counties in Minnesota</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20161209</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Currently, this dataset is updated on a bi-annual basis ( April &amp; October), though workflows are being developed to sustain more frequent updates. It is up to each address authority to work with their county to send updates to the data agregator, the Metropolitan Council. This dataset contains all updates received by the Metropolitan Council as of the Time Period of Content date shown above.</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-94.012</westbc>
+                <eastbc>-92.732</eastbc>
+                <northbc>45.415</northbc>
+                <southbc>44.471</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <place>
+                <placekey>Twin Cities, Anoka County, Carver County, Dakota County, Hennepin County, Ramsey County, Scott County, Washington County</placekey>
+            </place>
+            <theme>
+                <themekey>addresses, address points, mailing</themekey>
+                <themekt>None</themekt>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native>Native environment varies by address authority.</native>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Metropolitan Council</cntorg>
+                    <cntper>Jon Hoekenga</cntper>
+                </cntperp>
+                <cntpos>GIS System Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Robert Street North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651.602.1561</cntvoice>
+                <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>This regional dataset requires that all contributing datasets be submitted with a standard set of attributes.  However, many attributes are optional. Full databases specificaions can be found at http://metrogis.org/getmedia/961c3c17-f4c9-4e28-83d2-22dc57cf7c51/MetroGIS_Address_Points_Database_Specifications.pdf.aspx .  No attempt has been made by MetroGIS to assess the accuracy of the attribute data.  Please report any perceived discrepancies or errors in the data to the designated data provider. A list can be found at &lt;needlink here&gt;</attraccr>
+        </attracc>
+        <logic>The dataset is topologically 'clean'.</logic>
+        <complete>No attempt has been made by MetroGIS to assess the completeness of addresses or attributes provided by address authorities. The datasets are tested to ensure that all required attributes are populated. More information about which address authorities are contributing to the dataset and their assessment of completeness can be found in the MetroGIS Address Point Data Provider Register (.xlsx) here:http://www.metrogis.org/projects/address-point-editor.aspxIn some jurisdictions,  this dataset contains complete address points and in other jurisdictions the data are incomplete, containing parcel points or a mix of parcel points and address points. This is noted in the Data Provider Registry under the "Full Address Point Status" column as follows:  Complete:  Address points have been developed and are actively being maintained for the entire area of the city.  In areas where tax parcels contain multiple official addresses (e.g. units in apartment buildings, stores in strip malls), at least 90% of those address points are included in this dataset.Partially Complete:  Address points have been developed and are actively being maintained for the entire area of the city.  In areas where tax parcels contain multiple official addresses (e.g. units in apartment buildings, stores in strip malls), between 50 and 90% of those address points are included in this dataset.Incomplete:  Does not meet the criteria for either category above.Unknown</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>No attempt has been made by MetroGIS to assess the horizontal positional accuracy of points in this dataset. See the Positional Accuracy Indicator attribute for feature level information about positional accuracy.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Each county participating in the MetroGIS GIS Address Points Dataset works with the city address authorities within their jurisdiction to create and maintain the address points data.  Counties then contribute a file geodatabases  to the Metropolitan Council where they are aggregated using geoprocessing methods and made available for redistribution. No attempt is made to further process the data at the regional level. For information about lineage at the data development level, contact each address authority. </procdesc>
+            </procstep>
+            <srcinfo>
+                <srcscale></srcscale>
+            </srcinfo>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <indspref>Address</indspref>
+        <direct>Point</direct>
+        <mgmg3obj>Point</mgmg3obj>
+        <mgmg3til>One layer for entire area covered</mgmg3til>
+    </spdoinfo>
+    <eainfo>
+        <overview>
+            <eaover>A list of the attribute names and field types is shown below.  Detailed informationabout the attributes can be found at:http://metrogis.org/getmedia/961c3c17-f4c9-4e28-83d2-22dc57cf7c51/MetroGIS_Address_Points_Database_Specifications.pdf.aspxField Name  Description------------------------------------------------------------------------------------ADD_ID_NAT:  National Address Unique ID (Text 60)ADD_ID_LOC:  Local Address Unique ID (Text 50)ANUMBERPRE:  Address Number Prefix (Text 6)ANUMBER:     Address Number (Integer10)ANUMBERSUF:  Address Number Suffix (Text 6)ANUMBERSEP:  Address Number Separator Element (Text 1)ST_PRE_MOD:  Street Name Pre Modifier (Text 10)ST_PRE_DIR:  Street Name Pre Directional (Text 9)ST_PRE_TYP:  Street Name Pre Type (Text 24)ST_NAME:     Street Name (Text 42)ST_POS_TYP:  Street Name Post Type (Text 12)ST_POS_DIR:  Street Name Post Directiona (Text 9)ST_POS_MOD:  Street Name Post Modifier (Text 12)SUB_TYPE1:   Subaddress Type 1 (Text 12)SUB_ID1:     Subaddress Identifier 1 (Text 12)SUB_TYPE2:   Subaddress Type 2 (Text 12)SUB_ID2:     Subaddress Identifier 2 (Text 12)MUNI_NAME:   Municipal Jurisdiction Name (Text 30)MUNI_CODE:   Munipal Jurisdiction Code (Text 8)USPS_PLACE:  USPS Place Name (Text 30)CO_CODE:    County Code (Text 3)CO_NAME:     County Name (Text 20)STATE_CODE:  State Code (Text 2)ZIP:    Zip Code  (Text 5)ZIP4:        Zip Plus 4 (Text 4)LOC_DESC:    Location Description (Text 40)LANDMARK:    Landmark Name (Text 40)RESIDENCE:   Residence (Text 10)MAILABLE :   Mailable Address (Text 10)STATUS:      Lifecycle Status (Text 10)PIN:         Parcel Unique Identifier (Text 17)LONGITUDE:   Longitude (Double)LATITUDE:    Latitude (Double)POSI_ACCU:   Positional Accuracy Indicator (Integer2)ADIRSOURCE:  Address Direct Source (Text 40)AAUTHORITY:  Address Authority (Text 40)EDIT_ORG:    Editing Organization (Text 40)UPDATEDATE:  Update Date (Date)COMMENTS:    Comments (Text 254)</eaover>
+            <eadetcit>A detailed description of the attributes available in this dataset can be found at  http://metrogis.org/getmedia/961c3c17-f4c9-4e28-83d2-22dc57cf7c51/MetroGIS_Address_Points_Database_Specifications.pdf.aspx</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <resdesc>MetroGISAddressPoints</resdesc>
+        <distliab>NOTICE:  The Geographic Information System (GIS) Data to which this notice is attached are made available pursuant to the Minnesota Government Data Practices Act (Minnesota Statutes Chapter 13).  THE GIS DATA ARE PROVIDED TO YOU AS IS AND WITHOUT ANY WARRANTY AS TO THEIR PERFORMANCE, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  The GIS Data were developed by the Metropolitan Council for its own internal business purposes.  The Metropolitan Council does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate.  You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data.  You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features.  If you transmit or provide the GIS Data (or any portion of it) to another user, it is recommended that the GIS Data include a copy of this disclaimer and this metadata.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Shapefile</formname>
+                    <formvern>ArcGIS 9x</formvern>
+                    <transize></transize>
+                </digtinfo>
+            </digform>
+            <ordering>See Online Linkage Below</ordering>
+        </stdorder>
+        <distrib>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Metropolitan Council</cntorg>
+                    <cntper>Jon Hoekenga</cntper>
+                </cntperp>
+                <cntpos>GIS System Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Robert Street North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651.602.1561</cntvoice>
+                <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </distrib>
+    </distinfo>
+    <metainfo>
+        <metd>20161209</metd>
+        <metstdn>Minnesota Geographic Metadata Guidelines</metstdn>
+        <metstdv>1.2</metstdv>
+        <metextns>
+            <onlink>http://www.mngeo.state.mn.us/committee/standards/mgmg/metadata.htm</onlink>
+        </metextns>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntorg>Metropolitan Council</cntorg>
+                    <cntper>Jon Hoekenga</cntper>
+                </cntperp>
+                <cntpos>GIS System Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>390 Robert Street North</address>
+                    <city>St. Paul</city>
+                    <state>MN</state>
+                    <postal>55101-1805</postal>
+                </cntaddr>
+                <cntvoice>651.602.1561</cntvoice>
+                <cntemail>jonathan.hoekenga@metc.state.mn.us</cntemail>
+            </cntinfo>
+        </metc>
+    </metainfo>
+    <Esri>
+        <ModDate>20110721</ModDate>
+        <ModTime>14080800</ModTime>
+    </Esri>
+    <mdDateSt Sync="TRUE">20110721</mdDateSt>
+    <spref>
+        <horizsys>
+            <planar>
+                <gridsys>
+                    <gridsysn>Universal Transverse Mercator</gridsysn>
+                    <utm>
+                        <utmzone>15</utmzone>
+                    </utm>
+                </gridsys>
+                <planci>
+                    <plandu>meters</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>NAD83</horizdn>
+                <ellips>GRS80</ellips>
+            </geodetic>
+        </horizsys>
+    </spref>
+</metadata>
