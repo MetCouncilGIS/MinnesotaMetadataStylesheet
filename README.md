@@ -29,7 +29,7 @@ This stylesheet formats the MGMG standard metadata into the ArcCatalog Descripti
 Copy this file into <ArcGIS program location>\Metadata\Stylesheets\ArcGIS_Imports folder for use with ArcCatalog.
 
 3. MGMG Metadata.cfg
-This configuration file ties it all together. Copy this file into <ArcGIS program locaiton>\Metadata\Config folder.
+This configuration file ties it all together. Copy this file into <ArcGIS program location>\Metadata\Config folder.
 
 Once installed, 'MGMG Metadata' will appear as an additional option in the Customize -> ArcCatalog Options -> Metadata tab -> Metadata Style.
 
